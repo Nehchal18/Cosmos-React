@@ -97,7 +97,7 @@ const Navbar = () => {
         </Center>
         <Right>
           <MenuItem>Hello {storedUsername}</MenuItem>
-          <StyledLink to="/">
+          <StyledLink to="/register">
             <MenuItem>LogOut</MenuItem>
           </StyledLink>
           <MenuItem>
