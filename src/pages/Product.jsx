@@ -119,7 +119,7 @@ const Button = styled.button`
 const Product = () => {
   const [quantity, setQuantity] = useState(1);
   const decrease = () => {
-    if (quantity > 2) setQuantity(quantity - 1);
+    if (quantity > 1) setQuantity(quantity - 1);
   };
   const increase = () => {
     setQuantity(quantity + 1);
